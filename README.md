@@ -3,8 +3,8 @@ Simple MOSS Submit Script written in Node.js. Made for people who just want to s
 
 ## Getting Started
 ### Requirements
-Node.js 16+ is recommended
-[Register for MOSS](https://theory.stanford.edu/~aiken/moss/)
+- Node.js 16+ is recommended
+- [Register for MOSS](https://theory.stanford.edu/~aiken/moss/)
 
 ### Setup
 Once you have a MOSS account ID, you can set up a `config.js` file in the [config](config/) folder.
@@ -30,7 +30,7 @@ Place each individual submission inside the submission directory (above example 
 |-- starter
 |   |-- project1.py
 ```
-When the script submits to MOSS, different submission files will be marked as `submissionfolder_filename`. Above example on moss would show `person1__project1.py` and `person2__project1.py`.
+When the script submits to MOSS, different submission files will be marked as `submissionfolder__filename`. Above example on moss would show `person1__project1.py` and `person2__project1.py`.
 
 ### Running the project
 Use `npm install` to download dependencies.

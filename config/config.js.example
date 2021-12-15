@@ -1,0 +1,14 @@
+module.exports = {
+    "user_id": "12345678", // moss user user ID
+    "language": "python", // language to process as. list of language strings provided below.
+    "base_dir": "./submissions", // directory to get submissions from
+    "default_dir": "starter", // default code directory (if starter code was given, put it in this directory. e.g. ./submissions/starter/ directory)
+    "ignored_files": [] // list of file names you want to ignore. unchanged default files will not show up in the comparison list.
+}
+
+
+// valid languages strings understood by moss
+// "c", "cc", "java", "ml", "pascal", "ada", "lisp", "scheme",
+// "haskell", "fortran", "ascii", "vhdl", "verilog", "perl", "matlab",
+// "python", "mips", "prolog", "spice", "vb", "csharp", "modula2",
+// "a8086", "javascript", "plsql"

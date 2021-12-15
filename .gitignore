@@ -1,0 +1,5 @@
+config.js
+submissions/
+*.autosave
+*.bak
+node_modules/
